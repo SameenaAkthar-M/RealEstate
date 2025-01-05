@@ -101,7 +101,7 @@ export default function Profile() {
         </Link>
       </form>
       <div className="flex justify-between mt-5">
-        <span className="text-red-700 cursor-pointer" onClick={handleDeleteUser}>Delete account</span>
+        <span className="text-red-700 cursor-pointer" onClick={handleDeleteUser}>Delete your account</span>
         <span className="text-red-700 cursor-pointer" onClick={handleSignOut}>Sign out</span>
       </div>
       <p className="text-red-700 mt-5">{error? error : ''}</p>
